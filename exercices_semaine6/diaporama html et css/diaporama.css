@@ -1,0 +1,73 @@
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+
+}
+
+.diaporama1{
+
+	margin: 0 auto;
+	width: 960px;
+	height: 500px;
+	border: 3px solid #333;
+	background-image: url("images/vintage-1872683_640.jpg");
+
+	webkit-animation-name: diapo1;
+	webkit-animation-duration: 3s;
+	webkit-animation-delay: 1s;
+	webkit-animation-timing-function: linear;
+	webkit-animation-iteration-count: infinite;
+	webkit-animation-direction: normal;
+
+	moz-animation-name: diaporama1;
+	moz-animation-duration: 3s;
+	moz-animation-timing-function: linear;
+	moz-animation-iteration-count: infinite;
+	moz-animation-direction: normal;
+
+	animation-name: diaporama1;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+
+}
+
+@-moz-keyframes diapo1{
+	0%{background-image: url("images/sunset-1757593_640.jpg");}
+	33%{background-image: url("images/rise-1789903_640.jpg");}
+	66%{background-image: url("images/wave-1913559_640.jpg");}
+
+}
+
+@-webkit-keyframes diapo1{
+	0%{background-image: url("images/sunset-1757593_640.jpg");}
+	33%{background-image: url("images/rise-1789903_640.jpg");}
+	66%{background-image: url("images/wave-1913559_640.jpg");}
+}
+@keyframes diapo1{
+	0%{background-image: url("images/sunset-1757593_640.jpg");}
+	33%{background-image: url("images/rise-1789903_640.jpg");}
+	66%{background-image: url("images/wave-1913559_640.jpg");}
+}	
+
+.diaporama2{
+	
+	margin: 0 auto;
+	width: 960px;
+	height: 500px;
+	border: 3px solid #333;
+	background-image: url("images/wave-1913559_640.jpg");
+	webkit
+
+
+
+
+}
+
+
+
+/* diaporama a finir avce l aide du site http://pierre-giraud.com/html-css/exercices-html-css/creation-diaporama-html-css.php

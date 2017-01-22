@@ -1,0 +1,48 @@
+body {
+	/*background-image: url ("imagefond.jpg");	*/	
+	background: -webkit-linear-gradient(#9acd32,#7FC6BC);
+	background: -o-linear-gradient(#9acd32,#7FC6BC);
+	background: -moz-linear-gradient(#9acd32,#7FC6BC); 
+	background: linear-gradient(#9acd32,#7FC6BC); 
+
+}
+h1 {
+	color: #E66604;
+	text-align: center;
+    padding: 20px;
+    border: 3px solid #21D51B;
+}
+ul {
+	text-align: center;
+}
+li {
+	border: 6px solid #D1AE01;
+	list-style: none;
+	display: none;
+}
+img {
+	width: 800px;
+	height: 600px;
+	position: relative;
+}
+h2 {
+	position: absolute;
+	top: 110px;
+	color: #0131D1;
+	padding: 20px;
+	background-color: none;
+}
+p {
+    font-size: x-large;
+    padding-left: 15%;
+}
+label {
+	background: #046380;
+	
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.selector {
+	text-align: center;
+}
